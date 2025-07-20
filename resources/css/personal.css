@@ -1,0 +1,29 @@
+.my-container {
+    min-height: 70vh;
+    background-image: url(/public/public-images/background.jpg);
+}
+
+.personal-bg-nav {
+    background-color: #e88b1e;
+}
+
+.personal-bg-body {
+    background-color: #f8cf9f;
+}
+
+.personal-btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #dca235;
+    --bs-btn-border-color: ##dca23;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #df8f18;
+    --bs-btn-hover-border-color: #b02a37;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: #a52834;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #dc3545;
+}

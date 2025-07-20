@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-primary rounded-bottom shadow" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg personal-bg-nav rounded-bottom shadow position-fixed top-0 w-100 z-1" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('home.index') }}">{{ env('APP_NAME') }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -6,7 +6,7 @@
     <title>{{ env('APP_NAME') }} - {{ $pageTitle }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-primary-subtle">
+<body class="personal-bg-body">
 
     <x-shared.navbar />
     {{ $slot }}

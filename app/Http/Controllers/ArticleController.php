@@ -51,14 +51,16 @@ class ArticleController extends Controller
         } catch (\Throwable $th) {
             //throw $th;
         }
+
+        return redirect()->back()->with('success', 'Articolo pubblicato con successo');
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Article $article)
     {
-        //
+        return view('articles.detail', compact('article'));
     }
 
     /**

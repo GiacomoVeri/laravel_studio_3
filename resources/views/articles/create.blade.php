@@ -3,26 +3,26 @@
 
     <h1 class="text-center display-4 text-primary mt-5">Pubblica qui il tuo articolo!</h1>
 
-    @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-    
-    @if(session('warning'))
-        <div class="alert alert-success">
-            {{ session('warning') }}
-        </div>
-    @endif
-
-    @if(session('danger'))
-        <div class="alert alert-success">
-            {{ session('danger') }}
-        </div>
-    @endif
 
     <div class="container mt-5">
         <div class="row justify-content-center">
+            @if(session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+            @endif
+
+            @if(session('warning'))
+            <div class="alert alert-success">
+                {{ session('warning') }}
+            </div>
+            @endif
+
+            @if(session('danger'))
+            <div class="alert alert-success">
+                {{ session('danger') }}
+            </div>
+            @endif
             <div class="col-8">
                 <form action="{{ route('articles.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
